@@ -70,14 +70,13 @@ elForm.addEventListener("submit", function (evt) {
         list("New York")
         list("Paris")
     }
+
+    elInput.value = "";
 })
 
-
-
-
-
-
-
+setTimeout(() => {
+    window.location.reload();
+}, 86400000);
 
 
 

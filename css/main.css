@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url("../images/weatherbg.gif");
-    /* background-color: darkgreen; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +78,7 @@ a {
     width: 100%;
     height: 100%;
     background: rgb(255, 255, 255);
-    border: 1px solid #000000;
+    border: 1px solid #19ee06;
     box-shadow: 0px 10px 100px 10px rgba(255, 255, 255, 0.2);
     border-radius: 25px;
     list-style-type: none;
@@ -125,10 +124,6 @@ a {
     line-height: 69px;
     color: #33e50f;
 }
-.scale {
-    scale: 1.1;
-}
-
 
 .cloud {
     padding: 15px;
