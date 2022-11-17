@@ -23,7 +23,7 @@ async function list(city) {
 
         weatherarr.forEach(element => {
             templateClone.querySelector(".event").textContent = element.main
-            if (element.id >= 800) {
+            if (element.id > 800) {
                 templateClone.querySelector(".cloud").src = "./images/Clouds.gif"
             } else if (element.id == 800) {
                 templateClone.querySelector(".cloud").src = "./images/summer.gif"
@@ -77,28 +77,6 @@ elForm.addEventListener("submit", function (evt) {
 setTimeout(() => {
     window.location.reload();
 }, 86400000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
